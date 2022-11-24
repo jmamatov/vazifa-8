@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Dark toggle</title>
+</head>
+
+<body>
+  <div class="container">
+    <input type="checkbox" id="toggle" />
+  </div>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ab
+    sequi! Ipsum, reprehenderit! Dolor vero sunt corporis ea natus, nulla cum
+    assumenda. Nostrum corporis molestiae corrupti magni. Corporis ducimus
+    ipsam, qui et eveniet nisi excepturi sint dolore, labore velit repellat
+    quia quasi! Repellendus quo magni voluptatem aut odit, totam sequi autem,
+    doloremque minima tenetur placeat debitis reiciendis repudiandae dolore
+    tempore adipisci blanditiis reprehenderit doloribus recusandae esse
+    commodi harum ratione quisquam?
+  </p>
+  <script>
+    document.getElementById("toggle").addEventListener("click", function () {
+      document.getElementsByTagName("body")[0].classList.toggle("dark-theme");
+    });
+  </script>
+</body>
+
+</html>
